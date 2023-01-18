@@ -1,0 +1,1084 @@
+﻿/* тело */
+body {
+  	background-image: url(images/baack.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0; /* Убираем отступы на странице */
+	font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+
+}
+
+
+/* Кнопка возврата */
+.into {
+	width: 50px;
+	height: 50px;
+		position: fixed;
+		z-index: 80;
+	right: 25%;
+	bottom: 10%;
+	cursor:pointer;
+	display: none;
+}
+
+
+
+
+header, section, footer, aside, nav, article {
+	display: block; /* Блочный элемент */
+}
+
+
+/* Заголовки */
+/* -------------------------------------------------------------------------- */
+h2 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 60pt;
+	text-align: center;
+	margin-top: 5px;
+}
+
+h3 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 60pt;
+	text-align: center;
+	margin-top: -39px;
+}
+
+h4 {
+	color: #fff;
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 60pt;
+	text-align: center;
+	margin-top: -39px;
+}
+
+h5 {
+	color: #000000;
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 25pt;
+	text-align: center;
+	margin-top: -160px;
+		position: absolute;
+		z-index: 20;
+}
+
+h6 {
+	color: #fff;
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 18.5pt;
+	text-align: center;
+	margin-top: -38px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+		position: absolute;
+		z-index: 20;
+}
+
+
+/* Основная часть */
+/* -------------------------------------------------------------------------- */
+
+/* часть с фоновой картинкой */
+.content-back{
+  background: #f9f2e3 url(images/back.jpg) no-repeat;
+  background-size: cover; 
+	width: 100%; /* Ширина макета */
+	height: 900px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+	padding-top: 90px; /* Отступ сверху */
+
+}
+
+/* часть с основным содержанием */
+.content1 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+		z-index: 12;
+}
+
+/* часть с полупрозрачным фоном */
+.content1-1 {
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.55;
+	position: absolute;
+	top: 90px; /* Положение от нижнего края */
+	width: 65%; /* Ширина макета */
+	height: 5460px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+		left: 17%;
+		right: 26.3%; 
+}
+
+#menu { position: relative; z-index: 10; }
+
+.main-txt {
+		position: absolute;
+		z-index: 3;
+	margin-left: 25%;
+	margin-top: -9%;
+	color: #000000;
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 20pt;
+	text-align: center;
+}
+
+/* О нас */
+/* -------------------------------------------------------------------------- */
+
+/* часть с фоновой картинкой */
+.content-back2{
+  background: #f9f2e3 url(images/back2.jpg)  no-repeat;
+  background-size: cover; 
+  background-position: top center; /* позиция картинки */
+	width: 100%; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+	height: 900px; /* Высота макета */
+	padding-top: 90px; /* Отступ сверху */
+}
+
+/* часть с основным содержанием */
+.content2 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+		z-index: 10;
+}
+
+/* часть с полупрозрачным фоном */
+.content2-1 {
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.55;
+		position: absolute;
+	top: 990px; /* Положение от верхнего края */
+	width: 50%; /* Ширина макета */
+	height: 990px; /* Высота макета */
+	left: 13%;
+}
+
+/* фон текста */
+.kext1 {
+		postion: absolute;
+	background: #000000; /* Белый цвет фона */
+	opacity: 0.5;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 106px;
+	margin-left: 580px;
+	height: 330px;
+}
+
+/*текст */
+.text1 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 18pt;
+	text-align:  left;
+	padding: 5px 5px 10px 10px;
+	text-indent: 20px;
+	color: #fff;
+		position: relative;
+		z-index: 11;
+}
+
+.text1-1 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 18pt;
+	text-align:  left;
+	padding: 50px 5px 10px 10px;
+	text-indent: 20px;
+	color: #000000;
+	position: relative;
+		z-index: 11;
+	width: 700px;
+	margin-left: 15%;
+}
+
+/* картинка */
+.photo1 {
+	margin-left: 126px;
+	width: 439px;
+	height: 326px;
+	float: left;
+	box-shadow: 3px 3px;
+}
+
+/* Наши туры */
+/* -------------------------------------------------------------------------- */
+
+/* часть с фоновой картинкой */
+.content-back3{
+  background: #f9f2e3 url(images/back3.jpg) no-repeat;
+  background-size: cover; 
+	width: 100%; /* Ширина макета */
+	height: 900px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+	padding-top: 90px; /* Отступ сверху */
+
+
+}
+
+/* часть с основным содержанием */
+.content3 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+}
+
+/* часть с полупрозрачным фоном */
+.content3-1 {
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.55;
+	position: absolute;
+	top: 1980px; /* Положение от нижнего края */
+	width: 1000px; /* Ширина макета */
+	height: 990px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+		left: 23.8%;
+		right: 26.3%; /* 500px */
+}
+
+/* фон текста */
+.kext2 {
+		postion: absolute;
+	background: #000000; /* Белый цвет фона */
+	opacity: 0.5;
+	text-align: center;
+	margin-top: 35px;
+	margin-right: 106px;
+	margin-left: 253px;
+	height: 320px;
+	width: 514px;
+}
+
+/* текст */
+.text2 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 17pt;
+	text-align:  left;
+	padding: 1px 5px 10px 10px;
+	text-indent: 20px;
+	color: #fff;
+		position: relative;
+		z-index: 12;
+}
+
+/* картинка */
+.photo2 {
+	margin-top: -29px;
+	margin-left: 213px;
+	width: 594px;
+	height: 336px;
+	box-shadow: 3px 3px;
+}
+
+
+/* Организация */
+/* -------------------------------------------------------------------------- */
+
+
+/* часть с фоновой картинкой */
+.content-back-3{
+  background: #f9f2e3 url(images/back-1.jpg) no-repeat;
+  background-size: cover; 
+	width: 100%; /* Ширина макета */
+	height: 1500px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+	padding-top: 90px; /* Отступ сверху */
+
+
+}
+
+/* часть с основным содержанием */
+.content3 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+}
+
+/* часть с полупрозрачным фоном */
+.content3-1 {
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.55;
+		position: absolute;
+	top: 1980px; /* Положение от нижнего края */
+	width: 1000px; /* Ширина макета */
+	height: 990px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+		left: 23.8%;
+		right: 26.3%; /* 500px */
+}
+
+/* фон текста */
+.kext-2 {
+		position: absolute;
+	background: #000000; /* Белый цвет фона */
+	opacity: 0.5;
+	text-align: center;
+	margin-top: 35px;
+	margin-left: 50px;
+	height: 500px;
+	width: 850px;
+}
+
+/* текст */
+.text-2 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 15pt;
+	text-align:  left;
+	padding: 1px 5px 10px 10px;
+
+	text-indent: 20px;
+	color: #fff;
+		position: relative;
+		z-index: 12;
+	text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+
+/* картинка */
+.photo2 {
+	margin-top: -29px;
+	margin-left: 213px;
+	width: 594px;
+	height: 336px;
+	box-shadow: 3px 3px;
+}
+
+
+.about-this { margin-top: 650px; }
+
+.t-line {
+	font-family: 'Century Gothic Regular', serif;
+	margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    padding: 7px 0 7px 40px;
+    background: #b9e5f8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.list_div {
+	border: 1px solid #e2ecf3;
+    margin-bottom: 10px;
+    padding: 0 0 20px 0;
+    position: relative;
+    margin-top: 20px;
+    display: inline-table;
+    width: 100%;
+	background: #fff;
+}
+
+.list_div ul {
+	margin-left: 3.6rem;
+    margin-top: .5rem;
+    list-style-type: disc;
+	font-family: 'Century Gothic Regular', serif;
+    font-size: 1.6rem;
+    color: #0c2c5c;
+}
+
+
+/* Туры */
+/* -------------------------------------------------------------------------- */
+
+/* часть с фоновой картинкой */
+.content-back4{
+  background: #f9f2e3 url(images/back4.jpg) no-repeat;
+  background-size: cover; 
+	width: 100%; /* Ширина макета */
+	height: 900px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+	padding-top: 90px; /* Отступ сверху */
+
+
+}
+
+/* часть с основным содержанием */
+.content4 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+}
+
+/* часть с полупрозрачным фоном */
+.content4-1 {
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.55;
+	position: absolute;
+	top: 2970px; /* Положение от верхнего края */
+	width: 1000px; /* Ширина макета */
+	height: 990px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+		left: 23.8%;
+		right: 26.3%; /* 500px */
+}
+
+/* фон текста */
+.kext3 {
+		position: absolute;
+	background: #000000; /* Белый цвет фона */
+	opacity: 0.5;
+	text-align: center;
+	margin-top: 35px;
+	margin-right: 106px;
+	margin-left: 565px;
+	height: 410px;
+	width: 425px;
+}
+.kext3-1 {
+		position: absolute;
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.5;
+	text-align: center;
+	margin-top: -190px;
+	margin-right: 106px;
+	margin-left: -25px;
+	height: 570px;
+	width: 420px;
+}
+
+
+
+/* список туров*/
+.text-turs {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 19pt;
+	text-align:  left;
+	padding: 5px 5px 10px 20px; /* top,  ,  , left */
+	margin-top: -100px;
+	color: #000000;
+	width: 450px;
+		position: absolute;
+		z-index: 12;
+}
+.text-turs a {
+	text-decoration: none; /*убрать подчеркивание*/
+	cursor:pointer;
+}
+
+/* текст (white)*/
+.text3 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 13pt;
+	text-align:  left;
+	padding: 5px 5px 10px 20px; /* top,  ,  , left */
+	margin-top: 50px;
+	color: #fff;
+		position: relative;
+		z-index: 12;
+	text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+
+
+
+/* картинка */
+.photo3 {
+	margin-top: -29px;
+	margin-left: 213px;
+	width: 590px;
+	height: 450px;
+}
+
+
+
+
+.kartinka-1, .kartinka-2, .kartinka-3,
+.kartinka-4, .kartinka-5 { display: none;}
+
+
+
+
+/* Слайдер */
+/* -------------------------------------------------------------------------- */
+
+/* кнопка назад */
+.previous {
+	margin-left: 565px;
+	margin-top: 310px;
+	width: 40px;
+	height: 40px;
+		position: absolute;
+		z-index: 20;
+	cursor:pointer;
+}
+
+/* кнопка вперед */
+.next {
+	margin-left: 948px;
+	margin-top: 310px;
+	width: 40px;
+	height: 40px;
+		position: absolute;
+		z-index: 20;
+	cursor:pointer; /* вид курсора при наведении */
+}
+
+.previous{
+	background:url(images/this2.png) no-repeat;
+}
+
+.next{
+	background:url(images/this1.png) no-repeat;
+}
+
+
+
+/* слайдер */
+.sl_ctr{
+	position:relative;
+	overflow:hidden; /* прячем выходящее за поля*/
+	margin-top: -29px;
+	margin-left: 583px;
+	width: 390px;
+	height: 250px;
+}
+
+.sldr{
+		position:relative;
+	width:10000px;
+	height:250px;
+}
+
+.sldr img{
+	float:left;
+	height: 250px;
+	width: 390px;
+}
+
+
+
+
+
+
+
+/* затемнение текста на картинке */
+.lake {
+	margin-left: -3px;
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+		position: relative;
+	text-decoration: none;
+}
+
+.lake:before {
+	display: block;
+	background-color: rgb(0, 0, 0);
+	content: "";
+	margin-top: 80px;
+	border-radius: 20px;
+	height: 90px;
+	opacity: 0;
+  		position: absolute;
+	width: 390px;
+		z-index: 2;
+}
+
+.lake:after {
+	font-family: 'Lucida Console';
+	color: white;
+	content: attr(alt);
+	display: block;
+	font-size: 16px;
+	opacity: 0;
+	padding: 0 3%;
+  		position: absolute;
+  	text-transform: none;
+  	top: 50%;
+  -webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+  -webkit-transform: scale(0) translateY(-50%);
+	transform: scale(0) translateY(-50%);
+  	width: 85%;
+	margin-left: 33px;
+  		z-index: 3;
+}
+
+.lake img {
+  	border: none;
+  	display: block;
+  	z-index: 1;
+}
+
+.lake:after {
+  -webkit-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.lake:hover:before {
+  	opacity: 0.6;
+}
+
+.lake:hover:after {
+  	opacity: 1;
+  -webkit-transform: scale(1) translateY(-50%);
+	transform: scale(1) translateY(-50%);
+}
+
+
+
+
+/* Отзывы */
+/* -------------------------------------------------------------------------- */
+
+/* часть с фоновой картинкой */
+.content-back6{
+  background: #f9f2e3 url(images/back-2.jpg)  no-repeat fixed center top;
+  background-size: cover; 
+  background-position: top center; /* позиция картинки */
+	width: 100%; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+	height: 400px; /* Высота макета */
+	padding-top: 90px; /* Отступ сверху */
+}
+
+/* часть с основным содержанием */
+.content3 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+		z-index: 10;
+}
+
+/* часть с полупрозрачным фоном */
+.content2-1 {
+	background: #fff; /* Белый цвет фона */
+	opacity: 0.55;
+		position: absolute;
+	top: 990px; /* Положение от верхнего края */
+	width: 50%; /* Ширина макета */
+	height: 990px; /* Высота макета */
+	left: 13%;
+}
+
+.align {
+	margin-top: -100px;
+}
+
+
+/* Контакты */
+/* -------------------------------------------------------------------------- */
+
+/* часть с фоновой картинкой */
+.content-back5{
+  background: #f9f2e3 url(images/back5.jpg) no-repeat;
+  background-size: cover; 
+	width: 100%; /* Ширина макета */
+	height: 1028px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+	padding-top: 90px; /* Отступ сверху */
+}
+
+/* часть с основным содержанием */
+.content5 {
+	width: 1000px; /* Ширина макета */
+	margin: auto; /* Выравнивание по центру */
+		position: relative;
+}
+
+/* часть с полупрозрачным фоном */
+.content5-1 {
+	background: #808080; /* Серый цвет фона */
+	opacity: 0.35;
+	position: absolute;
+	top: 6040px; /* Положение от верхнего края */
+	width: 65%; /* Ширина макета */
+	height: 990px; /* Высота макета */
+	margin: auto; /* Выравнивание по центру */
+		left: 17%;
+		right: 26.3%; 
+}
+
+/* фон текста */
+.kext4 {
+	postion: absolute;
+	background: #55b3d9; /* Темно-голубой цвет фона */
+	opacity: 0.86;
+	text-align: center;
+	margin-top: 35px;
+	margin-right: 106px;
+	margin-left: 150px;
+	height: 700px;
+	width: 670px;
+}
+
+/* текст */
+.text4 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 40pt;
+	text-align:  left;
+	padding: 20px 5px 10px 45px; /* up,  ,  , left */
+	color: #000000;
+	position: relative;
+		z-index: 12;
+}
+
+/* описание */
+.text4-1 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 25pt;
+	text-align:  left;
+	padding-top: -30px;
+	margin-top: -40px;
+	margin-bottom: 90px;
+	padding-left: 45px;
+	color: #000000;
+	position: relative;
+		z-index: 12;
+}
+
+/* сообщение пользователю */
+.message {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 17pt;
+	text-align:  left;
+	margin-top: -60px;
+	margin-left: 150px;
+	margin-bottom: -10px;
+	color: #fff;
+	position: relative;
+		z-index: 12;
+}
+
+
+.txt-center { margin-left: 75px;}
+
+
+/* Подвал */
+/* -------------------------------------------------------------------------- */
+
+footer { 
+	position: relative; /* Относительное позиционирование */
+	background: #1c1c1c; /* Цвет фона подвала */
+	height: 128px;
+	width: 100%; /* Ширина макета */
+	margin-top: -20px;
+	opacity: 0.82;
+}
+
+
+.text5 {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 15pt;
+	text-align:  right;
+	color: #fff;
+	padding-top: 30px;
+	padding-right: 40px;
+	position: relative;
+		z-index: 12;
+}
+
+/* иконки соц. сетей */
+ .icon {
+	margin-left: 91%;
+	margin-right: 20px;
+}
+
+
+/* Кнопка */
+/* -------------------------------------------------------------------------- */
+
+a.button {
+	top: 80px;
+		position: relative;
+		z-index: 12;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: #4285b4;
+	box-shadow: 0 -3px #284f6b inset;
+	transition: 0.2s;
+} 
+a.button:hover { background: #78c2df; }
+a.button:active {
+	background: #284f6b;
+	box-shadow: 0 3px #4285b4 inset;
+}
+
+a.button-tur {
+	top: 400px;
+	left: 730px;
+		position: relative;
+		z-index: 12;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: #4285b4;
+	box-shadow: 0 -3px #284f6b inset;
+	transition: 0.2s;
+} 
+a.button-tur:hover { background: #78c2df; }
+a.button-tur:active {
+	background: #284f6b;
+	box-shadow: 0 3px #4285b4 inset;
+}
+
+
+
+/* поле для ввода данных */
+.some-form__line {
+
+	margin-top: 60px;
+	margin-left: 116px;
+	margin-right: 116px;
+}
+
+.some-form__line input[type=text] {
+	font-family: 'Century Gothic Regular', serif;
+	font-size: 17pt;
+	color: #000000; /* пачиму не работает слушшай */
+	text-align:  left;
+    	font-style: italic;
+	border-bottom: solid 2px #000000;
+}
+
+.some-form__line input {
+	color: #000000;
+	display: block;
+	margin: 1em auto;
+	border: none;
+	background: none;
+	width: 90%;
+	font-size: 1em;
+}
+
+.some-form__hint {
+  z-index: -1;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: -6px;
+  padding: 0 12px;
+  width: 100%;
+  background: #f45a57;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.333333;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+
+
+.button_submit {
+    top: 750px;
+    left: 440px;
+		position: absolute;
+		z-index: 12;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #4285b4;
+    box-shadow: 0 -3px #284f6b inset;
+    transition: 0.2s;
+	border: none;
+} 
+.button_submit:hover { background: #78c2df;}
+.button_submit:active {
+	background: #284f6b;
+	box-shadow: 0 3px #4285b4 inset;
+}
+
+
+/* задание анимации полям для ввода */
+.input2::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input2::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input2:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input2:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input2:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.input2:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.input2:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.input2:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+
+/* Блок со ссылками */
+/* -------------------------------------------------------------------------- */
+
+a {
+	color: #000000; /* Цвет ссылок */
+}
+
+a:hover {
+	color: #000000; /* Цвет ссылок при наведении */
+}
+
+a img { 
+	border: none; /* Прячем границу вокруг изображений-ссылок */
+}
+
+section h1 {
+	font-size: 1.5em; /* Размер текста */
+	font-weight: normal; /* Нормальное начертание */
+	margin-bottom: 0; /* Отступ снизу */
+}
+
+.logo {
+	width: 466px;
+	height: 553px;
+	margin-left: 267px; /* Выравнивание слева */
+	margin-right: 267px; /* Выравнивание справа */
+	margin-top: -50px; /* Отступ сверху */
+	margin-bottom: -50px;
+}
+
+/*Выпадающий список*/
+
+
+/* задаем цвет фона для контейнера nav. */
+			nav {
+				text-align: center;
+				height: 53px;
+				margin: 50px 0;
+				margin-left: 101px;
+				margin-bottom: 179px;
+				margin-right: 101px;
+				margin-top: 10px;
+				background-color: #78c2df;
+			}
+			
+			/* убираем отступы и поля */
+			nav ul {
+				height: 53px;
+				padding:0;
+				margin:0;
+				list-style: none;
+				position: relative;
+				margin-left: 57px;
+				margin-right: 57px;
+			    }
+			
+			/* применяем inline-block позиционирование к элементам навигации */
+			nav ul li {
+				height: 53px;
+				width: 197px;
+				display:inline-block;
+				background-color: #78c2df;
+			    }
+			
+			/* стилизуем ссылки */
+			nav a {
+				display:block;
+				padding:0 10px;
+				color:#FFF;
+				font-size:20px;
+				line-height: 60px;
+				text-decoration:none;
+			}
+			
+			/* изменяем цвет фона при наведении курсора */
+			nav a:hover {
+				height: 53px;
+				background-color: #55b3d9;
+		}
+
+			/* скрываем выпадающие списки по умолчанию
+			 * и задаем абсолютное позиционирование */
+			nav ul ul {
+				height: 53px;
+				display: none;
+				position: absolute;
+				top: 100%;
+			}
+			
+			/* отображаем выпадающий список при наведении */
+			nav ul li:hover > ul {
+				display:inherit;
+			}
+			
+			/* первый уровень выпадающего списка */
+			nav ul ul li {
+				margin-left: -155px;
+				height: 53px;
+			 	min-width:170px;
+				float:none;
+				display:list-item;
+				position: relative;
+			}
+			
+			
+			
+/*ОТЗЫВЫ*/
+/* helpers/align.css */
+
+.align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* helpers/grid.css */
+
+.grid {
+	font-family: 'Century Gothic Regular', serif;
+  	margin-top: 50px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 768px;
+  	max-width: 48rem;
+  	width: 90%;
+}
+
+
+
+/* vendor/ui-accordion.css */
+
+.ui-accordion {
+  	margin-bottom: 24px;
+  	margin-bottom: 1.5rem;
+}
+
+.ui-accordion-header {
+  	background-color: #55b3d9; /* Цвет заголовка отзыва */
+ 	color: #fff; /* Цвет текста */
+  	cursor: pointer; /* Вид активного курсора */
+  	margin: 0; 
+  	padding: 4px 8px;
+}
+
+.ui-accordion-header-icon {
+ 	background-image: url('https://cdn.rawgit.com/marcobiedermann/playground/master/ui/accordion/jquery-ui-accordion/source/assets/images/accordion.svg');
+  	background-size: 100%;
+ 	display: inline-block;
+  	height: 12px;
+  	margin-right: 8px;
+	vertical-align: middle;
+	width: 12px;
+}
+
+.ui-accordion-header-icon.ui-icon-triangle-1-s {
+	background-position: 0 -36px;
+}
+
+.ui-accordion-content {
+	background-color: #fff;
+	padding: 8px;
+}
+
+.ui-accordion-content + .ui-accordion-header {
+	margin-top: 8px; 
+}
+
+
+.data {
+	margin-left: 620px;	
+}
